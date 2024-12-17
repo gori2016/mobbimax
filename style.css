@@ -1,0 +1,1187 @@
+/*Modo MOBILE*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*FONTES*/
+/*FONTES*/
+/*FONTES*/
+/*FONTES*/
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/*FONTES*/
+/*FONTES*/
+/*FONTES*/
+/*FONTES*/
+
+
+body {
+    background-color: #166665;
+}
+
+.primeiro {
+    display: none;
+}
+
+header {
+    width: 610px;
+    height: 100px;
+    margin-left: none;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    position: sticky;
+    top: 0;
+
+}
+
+header>a>img {
+    width: 135px;
+    height: 41px;
+    margin-left: 16px;
+    margin-top: 24px;
+
+}
+
+
+.menu {
+    width: 28px;
+    height: 28px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-right: 16px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+#menu>ul>li>a {
+    color: #166665;
+    text-decoration: none;
+}
+
+.fechar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-right: 16px;
+    margin-top: 24px;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+
+
+}
+
+nav {
+    background-color: #166665;
+    border-radius: 20px;
+    margin-left: 8px;
+    margin-right: 16px;
+    margin-top: 30px;
+    display: none;
+
+}
+
+li {
+    border-radius: 20px;
+    padding: 16px;
+    margin: 2px;
+    background-color: #EE7F27;
+    cursor: pointer;
+
+
+
+}
+
+
+main>img {
+    margin-top: 20px;
+    width: 500px;
+    height: 404px;
+    margin-left: 60px;
+
+}
+
+article {
+    margin-top: 50px;
+    width: 500px;
+    height: 762px;
+    border-radius: 30px;
+}
+
+article>h1 {
+    margin-left: 60px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+article>img {
+
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.imagemHome2 {
+    display: inline;
+}
+
+.imagemHome3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+
+}
+
+.marcas2 {
+    display: none;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 600px;
+    height: 762px;
+    border-radius: 30px;
+    background-color: #EE7F27;
+    border: solid 2px black;
+
+}
+
+section>img {
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    margin-left: 141px;
+    margin-top: 81px;
+}
+
+section>h4 {
+    margin-top: 20px;
+    margin-left: 63px;
+    margin-right: 63px;
+    font-size: 1rem;
+}
+
+#bairros {
+    margin-left: 63px;
+    margin-top: 20px;
+}
+
+.section2>ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 610px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+footer>img {
+    width: 135px;
+    height: 41px;
+    margin-left: 16px;
+    margin-top: 41px;
+}
+
+.facebook {
+    width: 23px;
+    height: 23px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.insta {
+    width: 23px;
+    height: 23px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+footer>p {
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 1.1rem;
+}
+
+.desenvolvido {
+    border-top: 1px solid green;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+/*PAGINA CONTATO*/
+/*PAGINA CONTATO*/
+/*PAGINA CONTATO*/
+/*PAGINA CONTATO*/
+/*PAGINA CONTATO*/
+/*PAGINA CONTATO*/
+/*PAGINA CONTATO*/
+/*PAGINA CONTATO*/
+
+
+.formContato {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContato>input {
+    width: 286px;
+    height: 25px;
+    border-radius: 24px;
+    margin-left: 8px;
+}
+
+.formContato>label {
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+.enviar {
+    width: 286px;
+    height: 25px;
+    border-radius: 24px;
+    margin-top: 20px;
+    background-color: #EE7F27;
+    margin-left: 8px;
+}
+
+.enviar:hover {
+    background-color: aqua;
+
+}
+
+.tituloss {
+    margin-left: 16px;
+    padding: 8px;
+    
+}
+
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+/*ACESSÓRIOS*/
+
+#tituloAcessorios {
+    margin-left: 63px;
+    margin-top: 20px;
+}
+
+.nossosAcessorios {
+    width: 402px;
+    height: 530px;
+    background-color: #EE7F27;
+    margin-left: 63px;
+    padding: 16px;
+    border-radius: 20px;
+    border: solid 2px black;
+
+}
+
+.listaAcessorios {
+    background: none;
+    list-style-type: circle;
+}
+
+#tituloAcessorios2 {
+    margin-left: 63px;
+    margin-top: 20px;
+}
+
+.nossosAcessorios2 {
+    margin-left: 63px;
+    background-color: #166665;
+}
+
+.nossosAcessorios2>img {
+    width: 244px;
+    height: 183px;
+    margin-top: 20px;
+    border-radius: 40px;
+
+}
+
+.saibamais {
+    width: 151px;
+    height: 33px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    background-color: #EE7F27;
+    border-radius: 16px;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.saibamais2{
+    width: 151px;
+    height: 33px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    background-color: #EE7F27;
+    border-radius: 16px;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.saibamais>p {
+    padding: 8px;
+}
+
+.saibamais2>p {
+    padding: 8px;
+}
+
+.nossosAcessorios3 {
+    margin-left: 63px;
+}
+
+.nossosAcessorios3>img {
+    width: 244px;
+    height: 183px;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+#tituloAcessorios3 {
+    margin-top: 20px;
+}
+
+.nossosAcessorios4 {
+    margin-left: 63px;
+}
+
+#tituloAcessorios4 {
+    margin-top: 20px;
+}
+
+.nossosAcessorios4>img {
+    width: 244px;
+    height: 183px;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+.nossosAcessorios5 {
+    margin-left: 63px;
+}
+
+.nossosAcessorios5>img {
+    width: 244px;
+    height: 183px;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+#titulosAcessorios5 {
+    margin-top: 20px;
+}
+
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+/*NOSSAS LOJAS */
+
+#tituloNossasLojas {
+    margin-top: 20px;
+    margin-left: 63px;
+    margin-bottom: 20px;
+    color: #EE7F27;
+}
+
+.mapas {
+    width: 370px;
+    height: 160px;
+    border-radius: 40px;
+    margin-left: 63px;
+}
+
+.mapa2{
+    width: 370px;
+    height: 160px;
+    border-radius: 40px;
+    margin-left: 63px;
+}
+
+#tituloLoja1 {
+    margin-left: 63px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+#tituloloja2 {
+    margin-top: 20px;
+    margin-left: 63px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+#tituloloja3 {
+
+    margin-top: 20px;
+    margin-left: 63px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+
+
+}
+
+#tituloloja4 {
+    margin-top: 20px;
+    margin-left: 63px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+#tituloloja5 {
+    margin-top: 20px;
+    margin-left: 63px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+
+.loja1e2 {
+    display: none;
+}
+
+
+
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+/*NOSSOS SERVIÇOS*/
+
+
+#tituloNossosServicos {
+    margin-top: 20px;
+    margin-left: 63px;
+    color: #EE7F27;
+}
+
+.nossosservicos {
+    width: 394px;
+    height: 700px;
+    background-color: #EE7F27;
+    margin-left: 63px;
+    padding: 16px;
+    border-radius: 20px;
+    border: solid 2px black;
+}
+
+#nossosServicosParagrafo {
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+.tiraCor {
+    background: none;
+    list-style-type: circle;
+
+}
+
+#tituloAssistenciaTecnica {
+    margin-top: 20px;
+}
+
+.fotoAssistenciaTecnica {
+    width: 270px;
+    height: 180px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.assistenciaTecnica {
+    margin-left: 63px;
+}
+
+.assistenciaTecnica2 {
+    margin-left: 63px;
+
+}
+
+#tituloAssistenciaTecnica2 {
+    margin-top: 20px;
+}
+
+.fotoAssistenciaTecnica2 {
+    width: 270px;
+    height: 180px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.assistenciaTecnica3 {
+    margin-left: 63px;
+}
+
+#tituloAssistenciaTecnica3 {
+    margin-top: 20px;
+}
+
+.fotoAssistenciaTecnica3 {
+    width: 270px;
+    height: 303px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+
+
+
+/*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*//*quem somos*/
+#tituloQuemSomos {
+    margin-left: 63px;
+
+}
+
+.sobreNos>p {
+    margin-left: 63px;
+}
+
+.home2png {
+    margin-top: 20px;
+    width: 350px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-left: 93px;
+}
+
+
+
+
+.listaSobreNos {
+    margin-left: 30px;
+    background: none;
+}
+
+#formularioDeContato {
+    display: flex;
+    flex-direction: column;
+}
+
+#tituloFormulario {
+    margin-bottom: 20px;
+    margin-left: 16px;
+}
+
+#formularioDeContato>label {
+    margin-left: 20px;
+}
+
+#formularioDeContato>input {
+    margin-left: 16px;
+    border-radius: 20px;
+    height: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tituloFormulario {
+    margin-left: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contatoform {
+    margin-left: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#pform {
+    margin-left: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*DESKTOP*/
+
+@media(min-width:1024px) {
+    header {
+        width: 100%;
+        height: 177px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .primeiro {
+        height: 50px;
+        background-color: #166665;
+        display: inline;
+        display: flex;
+        justify-content: end;
+        padding: 8px
+    }
+
+    .logo {
+        width: 370px;
+        height: 122px;
+        margin-left: 63px;
+    }
+
+
+    .insta {
+        padding-left: 24px;
+        margin-top: 16px;
+        width: 48px;
+        height: 48px;
+
+    }
+
+    #instaa{
+        width: 48px;
+        height: 48px;
+        padding-right: 24px;
+        padding-left: 24px;
+        margin-left: 16px;
+    }
+
+    .whatsapp {
+        width: 50px;
+        height: 50px;
+        margin-left: 16px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    nav {
+        display: inline;
+        background: none;
+    }
+
+    nav>ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav>ul>li {
+        background: none;
+        cursor: pointer;
+        font-size: 1.2rem;
+    }
+
+    nav>ul>li:hover {
+        background-color: #EE7F27;
+    }
+
+    main>img {
+        width: 1090px;
+        height: 700px;
+        margin-top: 30px;
+        
+
+    }
+
+    .marcasjpg {
+        display: none;
+    }
+
+    .marcas2 {
+        display: block;
+        margin-left: 40px;
+        width: 1090px;
+        height: 700px;
+    }
+
+    #titulomain {
+        margin-left: 50px;
+    }
+
+    .section1{
+        margin-left: 40px;
+        margin-top: 60px;
+        width: 1390px;
+        height: 700px;
+        background-color: #EE7F27;
+        text-align: center;
+       
+    }
+
+    #tituloSection{
+        font-size: 1.5rem;
+    }
+
+    .imagemHome3 {
+        margin-right: 30px;
+        width: 300px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .section2 {
+        margin-left: 40px;
+        margin-top: 60px;
+        width: 1390px;
+        height: 700px;
+        background-color: #EE7F27;
+        text-align: center;
+    }
+
+    #title{
+        font-size: 1.5rem;
+    }
+
+    footer {
+        width: 100%;
+        height: 350px;
+    }
+
+    footer>img {
+        width: 300px;
+        height: 100px;
+        margin-left: 20px;
+
+    }
+
+    .redesSociais {
+        display: flex;
+        justify-content: end
+    }
+
+    .facebook {
+        width: 48px;
+        height: 48px;
+        margin-top: 16px;
+    }
+
+    /*Serviços-Desktop*/
+    /*Serviços-Desktop*/
+    /*Serviços-Desktop*/
+
+    /*Serviços-Desktop*/
+    /*Serviços-Desktop*/
+
+    /*Serviços-Desktop*/
+    /*Serviços-Desktop*/
+    /*Serviços-Desktop*/
+
+
+
+    .nossosservicos {
+        width: 1150px;
+        height: 751;
+        background-color: #EE7F27;
+
+    }
+
+    .nossosservicos>p {
+        font-size: 1.6rem;
+    }
+
+    .nossosservicos>ul {
+        font-size: 1.5rem;
+    }
+
+    .assistenciaTecnica>h1 {
+        margin-left: 20px;
+    }
+
+    .assistenciaTecnica>img {
+        width: 469px;
+        height: 322px;
+        border-radius: 40px;
+    }
+
+    .saibamais {
+        width: 341px;
+        height: 72px;
+        padding-top: 16px;
+        font-size: 1.4rem;
+        margin-left: 20px;
+
+    }
+
+    .saibamais>p {
+        margin-top: 8px;
+    }
+
+    .conteinerAssistencia {
+        display: flex;
+    }
+
+    .assistenciaTecnica2>img {
+        width: 469px;
+        height: 322px;
+        border-radius: 40px;
+        margin-left: 20px;
+    }
+
+    .assistenciaTecnica2>h1 {
+        margin-left: 20px;
+    }
+
+
+
+    .assistenciaTecnica3>h1 {
+        text-align: center;
+    }
+
+    .assistenciaTecnica3 {
+        text-align: center;
+    }
+
+    .assistenciaTecnica3>img {
+        width: 469px;
+        height: 581px;
+
+    }
+
+    .saibamais2 {
+        width: 341px;
+        height: 72px;
+        background-color: #EE7F27;
+        text-decoration: underline;
+        padding-top: 16px;
+        font-size: 1.4rem;
+        margin-left: 20px;
+        text-align: center;
+        border-radius: 20px;
+        margin-left: 550px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .saibamais2>p {
+        margin-top: 15px;
+    }
+
+
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+    /*NOSSAS LOJAS*/
+
+
+    .loja1e2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mapas {
+        width: 547px;
+        height: 237px;
+
+    }
+
+    #tituloLoja1 {
+        font-size: 1.2rem;
+    }
+
+    #tituloloja2 {
+        margin-left: 720px;
+    }
+
+    .loja3e4 {
+        display: flex;
+
+    }
+
+    #tituloloja4{
+        margin-left: 120px;
+    }
+
+    #tituloloja5{
+        margin-top: 20px;
+        margin-left: 63px;
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+
+
+
+    .mapa2 {
+        width: 547px;
+        height: 237px;
+        border-radius: 40px;
+        margin-left: 100px;
+    }
+
+    /*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*//*ACESSÓRIOS*/
+
+    #tituloAcessorios{
+        margin-top: 40px;
+        margin-left: 80px;
+    } 
+    
+    #tituloAcessorios2{
+        display: none;
+    }
+
+    .nossosAcessorios{
+        width: 1350px;
+        height: 700px;
+        background-color: #EE7F27;
+        border-radius: 40px;
+        font-size: 1.7rem;
+        
+    }
+
+    .nossosAcessorios>p{
+        margin-top: 20px;
+        margin-left: 63px;
+    }
+
+    .listaAcessorios{
+        margin-left: 63px;
+        margin-bottom: 20px;
+    }
+
+    .acessorios2e3{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    .nossosAcessorios2>img{
+        width: 469px;
+        height: 322px;
+
+    }
+
+    .nossosAcessorios3>img{
+        width: 469px;
+        height: 322px;
+
+    }
+
+    .nossosAcessorios4>img{
+        width: 469px;
+        height: 322px;
+    }
+
+    .nossosAcessorios5>img{
+        width: 469px;
+        height: 322px;
+    }
+
+    .rodapeAcessorios{
+        margin-top: 20px;
+    }
+
+    /*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*//*Sobre nós*/
+
+    #tituloQuemSomos{
+        font-size: 2rem;
+    }
+
+    .sobreNos{
+        width: 1400px;
+        height: 600px;
+        padding: 20px;
+        background-color: #EE7F27;
+        font-size: 1.2rem;
+        border: solid 2px black;
+        border-radius: 20px;
+        
+     
+    }
+
+    .home2png{
+        width: 500px;
+        height: 320px;
+        margin-bottom: 40px;
+        border-radius: 289px;
+        margin-left: 20px;
+
+    }
+    .listaSobreNos:hover{
+        background-color: #166665;
+    }
+
+    #formularioDeContato{
+        display: flex;
+        align-items: center;
+    }
+
+    #formularioDeContato>h1{
+        text-align: center;
+    }
+    
+    .name{
+        width: 500px;
+        height: 200px;
+
+    }
+
+    .telefone{
+        width: 500px;
+        height: 200px;
+    }
+
+    .email{
+        width: 500px;
+        height: 200px;
+    }
+
+    .enviar{
+        width: 500px;
+        height: 200px;
+    }
+
+    #nomeQuemSomos{
+        font-size: 1.5rem;
+    }
+
+    #telefoneQuemSomos{
+        font-size: 1.5rem;
+    }
+
+    #emailQuemSomos{
+        font-size: 1.5rem;
+    }
+
+    /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/ /*CONTATOS*/
+
+    .tituloss{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contatoform{
+        font-size: 2rem;
+    }
+
+    #pform{
+        font-size: 1.5rem;
+    }
+
+    #nomeContato{
+        font-size: 1.5rem;
+    }
+
+    #telefoneContato{
+        font-size: 1.5rem;
+    }
+
+    #emailContato{
+        font-size: 1.5rem;
+    }
+
+
+
+
+
+
+
+
+
+
+}
